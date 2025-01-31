@@ -1,4 +1,5 @@
-/*Find the maximun 
+/*Find the maximun amoung the given array
+
 const arr=[3,4,5,2,6,7,8,9]
 function findmax(arr) {
     let max = 0;
@@ -35,8 +36,8 @@ const output = arr.reduce(function (max, curr) {
 }, 0)
 console.log(output);*/
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-/* write a code to find the names using map
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/* write a code to find the names using map */
 
 const users=[{firstname:"mayur", lastname:"mogre" ,age:26},
 {firstname:"Rahul", lastname:"sharma" ,age:43},
@@ -45,19 +46,17 @@ const users=[{firstname:"mayur", lastname:"mogre" ,age:26},
 ];
 
 // list of full names
-
-
 const output=users.map (x => x.firstname + x.lastname);
 
-console.log(output);*/
+console.log(output);
 
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
-/*wirte a program using reduce function to show the age of the given
-
+// write a program using reduce function to show the age of the given how many people ave the same age
 
 
+
+/*
 const users=[
     {firstname:"mayur", lastname:"mogre" ,age:26},
     {firstname:"Rahul", lastname:"sharma" ,age:43},
@@ -75,12 +74,12 @@ const output =users.reduce(function(acc,curr){
     return acc;
 },{});
 console.log(output);
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 */
 
-// write a code to filter the 
+// write a code to filter just the name
 
-
+/*
 const users = [
     { firstname: "mayur", lastname: "mogre", age: 26 },
     { firstname: "Rahul", lastname: "sharma", age: 43 },
@@ -93,5 +92,5 @@ const output = users.filter((x) => x.age < 30)
 .map((x) => x.firstname);
 console.log(output);
 
-
+*/
 
